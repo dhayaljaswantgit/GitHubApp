@@ -132,10 +132,12 @@ android {
 
     defaultConfig {
         applicationId "com.githubapp"
-        minSdkVersion rootProject.ext.minSdkVersion
+        // minSdkVersion rootProject.ext.minSdkVersion
+        minSdkVersion 27
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
     }
     splits {
         abi {
