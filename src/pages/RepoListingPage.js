@@ -5,7 +5,7 @@ export default props => {
   const {username} = props.route.params;
   return (
     <>
-      <Header navigation={props.navigation} title="Followers" />
+      <Header navigation={props.navigation} title="Repositories" />
       <RepoListing navigation={props.navigation} username={username} />
     </>
   );
